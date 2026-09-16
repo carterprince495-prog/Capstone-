@@ -1,7 +1,11 @@
-// Mobile navigation
+// MOBILE NAVIGATION
 
-const menuButton = document.querySelector(".menu-button");
-const navMenu = document.querySelector("#nav-menu");
+const menuButton =
+    document.querySelector(".menu-button");
+
+const navMenu =
+    document.querySelector("#nav-menu");
+
 
 if (menuButton && navMenu) {
 
@@ -20,7 +24,7 @@ if (menuButton && navMenu) {
 }
 
 
-// Home page interaction
+// HOME PAGE JAVASCRIPT INTERACTION
 
 const helloButton =
     document.querySelector("#hello-button");
@@ -28,25 +32,27 @@ const helloButton =
 const helloMessage =
     document.querySelector("#hello-message");
 
+
 if (helloButton && helloMessage) {
 
     helloButton.addEventListener("click", function () {
 
         helloMessage.textContent =
-            "Hello! Thanks for visiting my portfolio.";
+            "Hello! Thanks for visiting Robert Joseph Carter's portfolio.";
 
     });
 
 }
 
 
-// Projects page interaction
+// PROJECT PAGE JAVASCRIPT INTERACTION
 
 const tipButton =
     document.querySelector("#tip-button");
 
 const tipMessage =
     document.querySelector("#tip-message");
+
 
 if (tipButton && tipMessage) {
 
